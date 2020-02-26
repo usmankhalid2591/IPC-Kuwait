@@ -260,6 +260,9 @@ footer {
     li {
       margin-right: 20px;
     }
+    li:nth-of-type(1){
+      margin-left: 5px;
+    }
   }
 }
 
