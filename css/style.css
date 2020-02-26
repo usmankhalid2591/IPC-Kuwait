@@ -58,6 +58,13 @@ h3 {
   background: linear-gradient(156deg, #f86306 0%, white 100%);
 }
 
+.bg--orangeGradient--footer {
+  background: #f86306;
+  background: -webkit-gradient(linear, right top, left top, from(#f86306), to(white));
+  background: linear-gradient(270deg, #f86306 0%, white 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f86306",endColorstr="#ffffff",GradientType=1);
+}
+
 header .navbar {
   height: 200px;
   display: -webkit-box;
