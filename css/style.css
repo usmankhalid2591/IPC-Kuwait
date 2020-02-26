@@ -187,6 +187,10 @@ header .nav-link {
   }
 }
 
+.join a:hover svg, .join a:hover #Path_10, .join a:hover #Path_11, .join a:hover #Path_12, .join a:hover #Path_9 {
+  fill: var(--color_orange);
+}
+
 .new-to {
   background: #f8630615;
   min-height: 500px;

@@ -176,6 +176,14 @@ header {
   }
 }
 
+.join{
+  a:hover{
+    svg, #Path_10, #Path_11, #Path_12, #Path_9{
+      fill: var(--color_orange);
+    }
+  }
+}
+
 .new-to {
   background: #f8630615;
   min-height: 500px;
