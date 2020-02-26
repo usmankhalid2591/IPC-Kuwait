@@ -222,6 +222,18 @@ header {
   }
 }
 
+.prayer-request{
+  // 
+}
+
+@media screen and (max-width: 768px){
+  .prayer-request{
+    .card{
+      margin-top: 10px;
+    }
+  }
+}
+
 footer {
   ul {
     display: flex;

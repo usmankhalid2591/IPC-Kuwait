@@ -236,6 +236,12 @@ header .nav-link {
   margin-top: 20px;
 }
 
+@media screen and (max-width: 768px) {
+  .prayer-request .card {
+    margin-top: 10px;
+  }
+}
+
 footer ul {
   display: -webkit-box;
   display: -ms-flexbox;
