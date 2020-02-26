@@ -258,6 +258,10 @@ header .nav-link {
   }
 }
 
+footer h3 {
+  font-size: 28px;
+}
+
 footer ul {
   display: -webkit-box;
   display: -ms-flexbox;
