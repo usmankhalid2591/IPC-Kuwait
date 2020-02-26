@@ -227,6 +227,18 @@ header .nav-link {
   margin: 0 auto;
 }
 
+.our-ministries__title__paragraph {
+  width: 50%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .our-ministries__title__paragraph {
+    width: 75%;
+    margin: 0 auto;
+  }
+}
+
 .who-we-are {
   text-align: center;
 }
@@ -234,6 +246,10 @@ header .nav-link {
 .who-we-are p {
   margin-bottom: 30px;
   margin-top: 20px;
+}
+
+.prayer-request .btn {
+  width: 400px;
 }
 
 @media screen and (max-width: 768px) {

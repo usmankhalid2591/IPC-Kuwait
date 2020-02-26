@@ -212,6 +212,19 @@ header {
     height: 140px;
     margin: 0 auto;
   }
+  &__title__paragraph{
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .our-ministries{
+    &__title__paragraph{
+      width: 75%;
+      margin: 0 auto;
+    }
+  }
 }
 
 .who-we-are{
@@ -223,7 +236,9 @@ header {
 }
 
 .prayer-request{
-  // 
+  .btn{
+    width: 400px;
+  }
 }
 
 @media screen and (max-width: 768px){
