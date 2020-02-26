@@ -3,6 +3,11 @@
   --color_black: #000000;
 }
 
+@font-face {
+  font-family: peace;
+  src: url(../font/peace.ttf);
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -141,6 +146,10 @@ header .nav-link {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.hero .left h1 {
+  font-family: peace;
 }
 
 .hero .right {
