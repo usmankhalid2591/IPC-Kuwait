@@ -79,8 +79,11 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f86306",endCo
 }
 
 a:hover{
-  svg, #Path_10, #Path_11, #Path_12, #Path_9{
+  svg{
     fill: var(--color_orange);
+  }
+  .cls-1{
+    stroke: var(--color_orange);
   }
 }
 

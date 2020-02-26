@@ -75,8 +75,12 @@ h3 {
           box-shadow: 0px 0px 20px 0px #eee;
 }
 
-a:hover svg, a:hover #Path_10, a:hover #Path_11, a:hover #Path_12, a:hover #Path_9 {
+a:hover svg {
   fill: var(--color_orange);
+}
+
+a:hover .cls-1 {
+  stroke: var(--color_orange);
 }
 
 header .navbar {
