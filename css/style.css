@@ -75,6 +75,10 @@ h3 {
           box-shadow: 0px 0px 20px 5px #ccc;
 }
 
+a:hover svg, a:hover #Path_10, a:hover #Path_11, a:hover #Path_12, a:hover #Path_9 {
+  fill: var(--color_orange);
+}
+
 header .navbar {
   height: 200px;
   display: -webkit-box;
@@ -194,10 +198,6 @@ header .nav-link {
   .hero .left h1 {
     font-size: 42px;
   }
-}
-
-.join a:hover svg, .join a:hover #Path_10, .join a:hover #Path_11, .join a:hover #Path_12, .join a:hover #Path_9 {
-  fill: var(--color_orange);
 }
 
 .new-to {
