@@ -265,6 +265,11 @@ header .nav-link {
   }
 }
 
+footer {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
 footer h3 {
   font-size: 28px;
 }
