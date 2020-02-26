@@ -65,6 +65,11 @@ h3 {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f86306",endColorstr="#ffffff",GradientType=1);
 }
 
+.card, table {
+  -webkit-box-shadow: 0px 0px 20px 5px #ccc;
+          box-shadow: 0px 0px 20px 5px #ccc;
+}
+
 header .navbar {
   height: 200px;
   display: -webkit-box;
@@ -253,6 +258,10 @@ header .nav-link {
 .who-we-are p {
   margin-bottom: 30px;
   margin-top: 20px;
+}
+
+.events .card-img-top {
+  min-height: 300px;
 }
 
 .prayer-request .btn {
