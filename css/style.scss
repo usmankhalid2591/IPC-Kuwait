@@ -166,17 +166,33 @@ header {
 
 .new-to {
   background: #f8630615;
+  min-height: 500px;
   .img-2 {
     top: 50px;
     left: 50px;
   }
+  .new-to__text{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+  }
 }
+
 @media screen and (max-width: 1024px) {
   .new-to{
     .img-2 {
         top: -20px;
         left: 100px;
       }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .new-to{
+    .new-to__text{
+      margin-top: 10px;
+    }
   }
 }
 
@@ -197,10 +213,39 @@ header {
     margin: 0 auto;
   }
 }
+
+.who-we-are{
+  text-align: center;
+  p{
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+}
+
 footer {
   ul {
+    display: flex;
+    list-style: none;
+    padding: 0px;
     li {
       margin-right: 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px){
+  footer{
+    ul{
+      justify-content: end;
+    }
+  }
+}
+
+@media screen and (max-width: 768px){
+  footer{
+    text-align: center;
+    ul{
+      justify-content: center;
     }
   }
 }
