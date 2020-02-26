@@ -151,10 +151,14 @@ header {
   }
   .right {
     grid-area: right;
-    background-image: url(../img/hero.png);
+    height: 100%;
+    .carousel-item{
+      background-image: url(../img/hero.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    height: 100%;
+    }
   }
 }
 

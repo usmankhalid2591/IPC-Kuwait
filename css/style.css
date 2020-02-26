@@ -160,10 +160,15 @@ header .nav-link {
   -ms-grid-row: 1;
   -ms-grid-column: 2;
   grid-area: right;
+  height: 100%;
+}
+
+.hero .right .carousel-item {
   background-image: url(../img/hero.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  height: 100%;
 }
 
 @media screen and (max-width: 1024px) {
