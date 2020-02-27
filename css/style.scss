@@ -66,35 +66,47 @@ h3 {
   );
 }
 
-.bg--orangeGradient--footer{
-  background: rgb(248,99,6);
-background: -moz-linear-gradient(270deg, rgba(248,99,6,1) 0%, rgba(255,255,255,1) 100%);
-background: -webkit-linear-gradient(270deg, rgba(248,99,6,1) 0%, rgba(255,255,255,1) 100%);
-background: linear-gradient(270deg, rgba(248,99,6,1) 0%, rgba(255,255,255,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f86306",endColorstr="#ffffff",GradientType=1);
+.bg--orangeGradient--footer {
+  background: rgb(248, 99, 6);
+  background: -moz-linear-gradient(
+    270deg,
+    rgba(248, 99, 6, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    270deg,
+    rgba(248, 99, 6, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  background: linear-gradient(
+    270deg,
+    rgba(248, 99, 6, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f86306",endColorstr="#ffffff",GradientType=1);
 }
 
-.card{
+.card {
   border: none;
 }
 
-.card, table{
+.card,
+table {
   box-shadow: 0px 0px 20px 0px #eee;
 }
 
-a:hover{
-  svg{
+a:hover {
+  svg {
     fill: var(--color_orange);
   }
-  .cls-1{
+  .cls-1 {
     stroke: var(--color_orange);
   }
 }
 
-.bold{
+.bold {
   font-weight: 600;
 }
-
 
 // Main CSS
 
@@ -156,19 +168,33 @@ header {
     padding: 5rem;
     display: flex;
     align-items: center;
-    h1{
+    h1 {
       font-family: peace;
     }
   }
   .right {
     grid-area: right;
     height: 100%;
-    .carousel-item{
+    .carousel-item {
       background-image: url(../img/hero.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 100%;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      height: 100%;
+    }
+    .carousel-item:nth-of-type(2) {
+      background-image: url(../img/hero2.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: stretch;
+      height: 100%;
+    }
+    .carousel-item:nth-of-type(3) {
+      background-image: url(../img/hero3.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      height: 100%;
     }
   }
 }
@@ -215,7 +241,7 @@ header {
     top: 50px;
     left: 50px;
   }
-  .new-to__text{
+  .new-to__text {
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -224,17 +250,17 @@ header {
 }
 
 @media screen and (max-width: 1024px) {
-  .new-to{
+  .new-to {
     .img-2 {
-        top: -20px;
-        left: 100px;
-      }
+      top: -20px;
+      left: 100px;
+    }
   }
 }
 
 @media screen and (max-width: 768px) {
-  .new-to{
-    .new-to__text{
+  .new-to {
+    .new-to__text {
       margin-top: 10px;
     }
   }
@@ -256,51 +282,51 @@ header {
     height: 140px;
     margin: 0 auto;
   }
-  &__title__paragraph{
+  &__title__paragraph {
     width: 50%;
     margin: 0 auto;
   }
 }
 
-@media screen and (max-width: 768px){
-  .our-ministries{
-    &__title__paragraph{
+@media screen and (max-width: 768px) {
+  .our-ministries {
+    &__title__paragraph {
       width: 75%;
       margin: 0 auto;
     }
   }
 }
 
-.who-we-are{
+.who-we-are {
   text-align: center;
-  p{
+  p {
     margin-bottom: 30px;
     margin-top: 20px;
   }
 }
 
-.events{
-  .card-img-top{
+.events {
+  .card-img-top {
     min-height: 300px;
   }
 }
 
-.prayer-request{
-  .btn{
+.prayer-request {
+  .btn {
     width: 400px;
   }
 }
 
-@media screen and (max-width: 768px){
-  .prayer-request{
-    .card{
+@media screen and (max-width: 768px) {
+  .prayer-request {
+    .card {
       margin-top: 10px;
     }
   }
 }
 
 footer {
-  h3{
+  h3 {
     font-size: 28px;
   }
   ul {
@@ -310,7 +336,7 @@ footer {
     li {
       margin-right: 20px;
     }
-    li:nth-of-type(1){
+    li:nth-of-type(1) {
       margin-left: 5px;
     }
   }
@@ -318,18 +344,18 @@ footer {
   border-top-left-radius: 20px;
 }
 
-@media screen and (max-width: 1024px){
-  footer{
-    ul{
+@media screen and (max-width: 1024px) {
+  footer {
+    ul {
       justify-content: end;
     }
   }
 }
 
-@media screen and (max-width: 768px){
-  footer{
+@media screen and (max-width: 768px) {
+  footer {
     text-align: center;
-    ul{
+    ul {
       justify-content: center;
     }
   }
