@@ -366,6 +366,9 @@ header .nav-link {
 }
 
 @media screen and (max-width: 768px) {
+  .prayer-request .btn {
+    width: 200px;
+  }
   .prayer-request .card {
     margin-top: 10px;
   }

@@ -368,6 +368,9 @@ align-items: center;
 
 @media screen and (max-width: 768px) {
   .prayer-request {
+    .btn{
+      width: 200px;
+    }
     .card {
       margin-top: 10px;
     }
