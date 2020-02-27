@@ -241,12 +241,14 @@ header .nav-link {
     -ms-grid-rows: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
         grid-template-areas: "left" "right";
+    height: 80vh;
+    text-align: center;
   }
   .hero .left {
     width: 100%;
   }
   .hero .left h1 {
-    font-size: 42px;
+    font-size: 36px;
   }
   .hero .right .carousel-item {
     width: 100%;
