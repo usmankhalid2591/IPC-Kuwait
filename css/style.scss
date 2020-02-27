@@ -178,7 +178,6 @@ header {
     width: 105%;
     left: 0;
     z-index: 1;
-    padding: 5rem;
     display: flex;
     align-items: center;
     h1 {
@@ -228,7 +227,6 @@ header {
       "right";
 
     .left {
-      padding: 3rem !important;
       width: 100%;
       h1 {
         font-size: 56px;
@@ -245,10 +243,14 @@ header {
       "left"
       "right";
     .left {
-      padding: 3rem !important;
       width: 100%;
       h1 {
         font-size: 42px;
+      }
+    }
+    .right{
+      .carousel-item{
+        width: 100%;
       }
     }
   }
