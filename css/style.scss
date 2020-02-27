@@ -108,6 +108,19 @@ a:hover {
   font-weight: 600;
 }
 
+.btn:hover{
+  background-color: var(--color_black);
+}
+
+.who--hover--color:hover{
+  color: var(--color_orange);
+}
+
+.signup--hover--color:hover{
+  background-color: white;
+  color: #000 !important;
+}
+
 // Main CSS
 
 header {
@@ -195,6 +208,13 @@ header {
       background-position: center;
       background-size: cover;
       height: 100%;
+    }
+    .carousel-indicators{
+      li{
+        border-radius: 50%;
+        width: 10px;
+        height: 10px;
+      }
     }
   }
 }
