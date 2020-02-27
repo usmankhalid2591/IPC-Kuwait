@@ -263,6 +263,9 @@ header .nav-link {
   .join .row {
     text-align: center;
   }
+  .join .row .join__resp {
+    margin-top: 20px;
+  }
 }
 
 .new-to {
