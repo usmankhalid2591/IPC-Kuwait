@@ -253,14 +253,48 @@ header .nav-link {
   }
 }
 
-.new-to {
-  background: #f8630615;
-  min-height: 500px;
+@media screen and (max-width: 1024px) {
+  .join .row {
+    text-align: center;
+  }
 }
 
-.new-to .img-2 {
-  top: 50px;
-  left: 50px;
+@media screen and (max-width: 768px) {
+  .join .row {
+    text-align: center;
+  }
+}
+
+.new-to {
+  background: #f8630615;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.new-to__images {
+  position: relative;
+  height: 100%;
+}
+
+.new-to__images .img-1, .new-to__images .img-2 {
+  background: url(../img/valley.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  height: 100%;
+}
+
+.new-to__images .img-2 {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 100%;
+  z-index: 3;
 }
 
 .new-to .new-to__text {
@@ -278,15 +312,12 @@ header .nav-link {
 }
 
 @media screen and (max-width: 1024px) {
-  .new-to .img-2 {
-    top: -20px;
-    left: 100px;
+  .new-to {
+    text-align: center;
   }
-}
-
-@media screen and (max-width: 768px) {
-  .new-to .new-to__text {
-    margin-top: 10px;
+  .new-to .img-2 {
+    top: 40px;
+    left: -20px;
   }
 }
 

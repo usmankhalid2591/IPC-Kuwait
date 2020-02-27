@@ -254,12 +254,48 @@ header {
   }
 }
 
+.join{
+  // 
+}
+
+@media screen and (max-width: 1024px){
+  .join{
+    .row{
+      text-align: center;
+    }
+  }
+}
+
+@media screen and (max-width: 768px){
+  .join{
+    .row{
+      text-align: center;
+    }
+  }
+}
+
 .new-to {
   background: #f8630615;
-  min-height: 500px;
-  .img-2 {
-    top: 50px;
-    left: 50px;
+  height: 500px;
+display: flex;
+align-items: center;
+  &__images{
+    position: relative;
+    height: 100%;
+    .img-1, .img-2{
+      background: url(../img/valley.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 20px;
+      height: 100%;
+    }
+    .img-2{
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      width: 100%;
+      z-index: 3;
+    }
   }
   .new-to__text {
     display: flex;
@@ -269,19 +305,12 @@ header {
   }
 }
 
-@media screen and (max-width: 1024px) {
-  .new-to {
-    .img-2 {
-      top: -20px;
-      left: 100px;
-    }
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .new-to {
-    .new-to__text {
-      margin-top: 10px;
+@media screen and (max-width: 1024px){
+  .new-to{
+    text-align: center;
+    .img-2{
+      top: 40px;
+      left: -20px;
     }
   }
 }
