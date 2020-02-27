@@ -403,6 +403,13 @@ footer {
 
 @media screen and (max-width: 768px) {
   footer {
+    h3{
+      margin: 20px 0px;
+      font-size: 24px;
+    }
+    img{
+      display: none;
+    }
     text-align: center;
     ul {
       justify-content: center;
