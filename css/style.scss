@@ -163,7 +163,16 @@ header {
     display: none;
   }
 }
-// lol
+
+@media screen and (max-width: 768px){
+  .navbar{
+    height: 140px;
+    .navbar-brand{
+      height: 100%;
+    }
+  }
+}
+
 .hero {
   display: grid;
 

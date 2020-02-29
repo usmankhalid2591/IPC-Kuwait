@@ -151,6 +151,15 @@ header .nav-link {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .navbar {
+    height: 140px;
+  }
+  .navbar .navbar-brand {
+    height: 100%;
+  }
+}
+
 .hero {
   display: -ms-grid;
   display: grid;
