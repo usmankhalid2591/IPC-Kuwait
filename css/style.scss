@@ -166,10 +166,7 @@ header {
 
 @media screen and (max-width: 768px){
   .navbar{
-    height: 140px;
-    .navbar-brand{
-      height: 100%;
-    }
+    height: 130px !important;
   }
 }
 
