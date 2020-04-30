@@ -240,10 +240,25 @@ header {
     .carousel{
       display: none;
     }
+    .bg--orangeGradient{
+      h1{
+        font-size: 35px !important;
+      }
+    }
   }
 }
 
-// 
+@media screen and (max-width: 320px){
+  .hero{
+    .bg--orangeGradient{
+      h1{
+        font-size: 28px !important;
+      }
+    }
+  }
+}
+
+//JOin
 @media screen and (max-width: 1024px){
   .join{
     .row{
@@ -258,6 +273,16 @@ header {
       text-align: center;
       .join__resp{
         margin-top: 20px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 320px){
+  .join{
+    &__resp{
+      svg{
+        width: 100%;
       }
     }
   }
@@ -311,6 +336,15 @@ align-items: center;
   .table th,
   .table td {
     border: none;
+    padding: 0.50rem;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .weekly-schedule{
+    .container{
+      overflow: auto;
+    }
   }
 }
 
